@@ -1,0 +1,14 @@
+INFO | 2019-10-17 10:38:08,414 | loggingapp | root | Logging a test message from /
+INFO | 2019-10-17 10:38:25,046 | loggingapp | root | Logging a test message from /
+INFO | 2019-10-17 10:38:26,118 | loggingapp | root | Logging a test message from /
+INFO | 2019-10-17 10:38:36,028 | loggingapp | root | Logging a test message from /
+INFO | 2019-10-17 10:38:37,420 | loggingapp | root | Logging a test message from /
+INFO | 2019-10-17 10:38:37,635 | loggingapp | root | Logging a test message from /
+INFO | 2019-10-17 10:38:37,835 | loggingapp | root | Logging a test message from /
+INFO | 2019-10-17 10:41:33,154 | loggingapp | root | Logging a test message from /
+INFO | 2019-10-17 10:41:34,071 | loggingapp | root | Logging a test message from /
+INFO | 2019-10-17 10:41:34,297 | loggingapp | root | Logging a test message from /
+INFO | 2019-10-17 10:41:34,502 | loggingapp | root | Logging a test message from /
+INFO | 2019-10-17 10:41:34,727 | loggingapp | root | Logging a test message from /
+INFO | 2019-10-17 10:41:34,935 | loggingapp | root | Logging a test message from /
+INFO | 2019-10-17 10:41:35,151 | loggingapp | root | Logging a test message from /

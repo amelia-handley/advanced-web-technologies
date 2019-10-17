@@ -10,7 +10,7 @@ def index():
 @app.route('/login/')
 @app.route('/login/<message>')
 def login(message=None):
-    if(message!= None):
+    if(message != None):
         flash(message)
     else:
         flash('A default message')
