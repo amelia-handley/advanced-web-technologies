@@ -8,7 +8,7 @@ def root():
 @app.route("/account/", methods=['GET', 'POST'])
 def account():
     if request.method == 'POST':
-        return "POST'ed to /account root \n"
+        return "POST'ed to /account root\n"
     else:
         return "GET /account root"
 
