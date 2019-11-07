@@ -2,7 +2,7 @@ from flask import Flask, g
 import sqlite3
 
 from flask import Flask
-app = Flask (__name__)
+app = Flask(__name__)
 db_location = 'var/test.db'
 
 def get_db():
@@ -28,7 +28,7 @@ def init_db():
 @app.route("/")
 def root():
     db = get_db()
-    db.cursor().execute('insert into albums values ("American Beauty", "Grateful Dead", "CD")')
+    db.cursor().execute('insert into albums values ("American Beauty", "GratefulDead", "CD")')
     db.commit()
 
     page = []
