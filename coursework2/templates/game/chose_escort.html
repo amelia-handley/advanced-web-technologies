@@ -1,0 +1,23 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<h1> Escort Interrogation </h1>
+
+<div class="jumbotron">
+	<p class="lead">After a background check you find out that the Escort is good friends with a number of the casino’s guests.<br><br>
+	You ask: What reason were you with Elvis last night?<br>
+	Escort: I was paid to accompany Elvis as I have done before for numerous clients.<br>
+	{{session.username}}: And what was your relationship with Elvis? <br>
+	Escort: Professional. I had previously been asked to join him when he went to a wedding last year. Although when alone he acts distant… He doesn’t seem interested in me… He was too busy with a bartender. <br>
+	{{session.username}}: Did that make you jealous? <br>
+	Escort: No, it’s a matter of pride. You can judge me however you like but I’m not someone off the street. It damages my reputation if a client shows no desire in me. I just made a special… concession for Elvis. <br>
+	{{session.username}}: And what was that? <br>
+	Escort: well he’s not bad to look at regardless. And well if they pay enough it doesn’t matter what they ask. <br>
+	</p>
+	<button class="btn btn-primary" input type="button" onClick="location.href='http://webtech-28.napier.ac.uk:5000/game/gun'">The Gun Nut</button>
+        <button class="btn btn-primary" input type="button" onClick="location.href='http://webtech-28.napier.ac.uk:5000/game/coach'">The Singing Coach</button>
+	<br><br>After reading all 3 suspects interrogation click: further information. <br>
+        <button class="btn btn-primary" input type="button" onClick="location.href='http://webtech-28.napier.ac.uk:5000/game/further'">Further Information</button>
+
+{% endblock %}
+

@@ -6,3 +6,10 @@
 	{% endif %}
 {% endwith %}
 
+{% if error %}
+	<div class="alert alert-danger">{{ error }}</div>
+{% endif %}
+
+{% if success %}
+	<div class="alert alert-success">{{ message }}</div>
+{% endif %}

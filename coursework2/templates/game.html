@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<h1>Welcome Detective {{session.username}}</h1>
+
+<div class="jumbotron">
+	<p class="lead"> It is a Saturday night in Las Vegas. <br>  You have been called to solve the case of the death of an Elvis impersonator ... <br> Ready to Begin?</p>
+	<button class="btn btn-primary" input type="button" onClick="location.href='http://webtech-28.napier.ac.uk:5000/game/start'">Start</button>
+</div>
+{% endblock %}

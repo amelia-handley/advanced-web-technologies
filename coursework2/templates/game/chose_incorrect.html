@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<h1> Incorrect Detective {{session.username}}</h1>
+<div class="jumbotron">
+	<p> Perhaps more training is needed. </p>
+
+        <p> Would you like to play again? </p>
+        <button class="btn btn-primary" input type="button" onClick="location.href='http://webtech-28.napier.ac.uk:5000/game'">Play Again?</button>
+
+{% endblock %}
+

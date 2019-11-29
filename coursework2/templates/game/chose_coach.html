@@ -1,0 +1,28 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<h1> The Singing Coach Interrogation </h1>
+
+<div class="jumbotron">
+	<p class="lead"> After background inspection of the singing coach you find that he is an employee of Elvis. He was hired 6 months ago.<br><br>
+	{{session.username}} asks: So from my understanding you’ve been seeing Elvis for .. 6 months?<br>
+	Coach: Not seeing… coaching him.<br>
+	{{session.username}}: Singing lessons?<br>
+	Coach: Yes, private lessons. <br>
+	{{session.username}}: Where do these lessons take place?<br>
+	Coach: Either his place or mine - we both have studios.<br>
+	{{session.username}}: And you often go to his performances?<br>
+	Coach: Well yes it’s a part of the job. I need to hear how he performs so I often go. Sometimes me wife accompanies me.<br>
+	{{session.username}}: Was your wife with you last night?<br>
+	Coach: No, she had a deadline for work.<br>
+	{{session.username}}: Is she usually busy? <br>
+	Coach: I tend to keep my private life and work life separate. <br>
+	</p>
+	<button class="btn btn-primary" input type="button" onClick="location.href='http://webtech-28.napier.ac.uk:5000/game/escort'">The Escort</button>
+        <button class="btn btn-primary" input type="button" onClick="location.href='http://webtech-28.napier.ac.uk:5000/game/gun'">The Gun Nut</button> 
+	<br>
+	<br>
+	After reading all 3 suspects interrogation click: further information. <br>
+<button class="btn btn-primary" input type="button" onClick="location.href='http://webtech-28.napier.ac.uk:5000/game/further'">Further Information</button>
+
+{% endblock %}
